@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
     return -1;
   }
 
-  int level = atoi(argv[1]);
+  LevelParser parser(argv[1]);
 
   return 0;
 }
